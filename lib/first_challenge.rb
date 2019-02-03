@@ -20,8 +20,8 @@ def first_challenge
         value.delete_if do |flavor|
           flavor = "strawberry"
         end
-        contacts
       end
     end
   end
+  contacts
 end
