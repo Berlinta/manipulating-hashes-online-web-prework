@@ -21,6 +21,7 @@ def first_challenge
           flavor = "strawberry"
           puts "#{flavor}"
         end
+        puts contacts
 end
 end
 
