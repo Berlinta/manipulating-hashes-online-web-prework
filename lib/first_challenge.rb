@@ -22,4 +22,5 @@ def first_challenge
           puts "#{flavor}"
         end
 end
+end
 
