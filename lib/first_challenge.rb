@@ -19,9 +19,8 @@ def first_challenge
       value.each do |flavor|
         value.delete_if do |flavor|
           flavor = "strawberry"
-          puts "#{flavor}"
         end
-        puts contacts
+      end
+    end
+  end
 end
-end
-
