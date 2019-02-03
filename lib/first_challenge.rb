@@ -17,7 +17,7 @@ def first_challenge
   data.each do |attribute, value|
      if attribute == :favorite_icecream_flavors
       value.each do |flavor|
-        
+        value.delete_if 
         # here, each index element in an ice cream flavor string
         puts "#{flavor}"
   #your code here
